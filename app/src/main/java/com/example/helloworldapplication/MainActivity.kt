@@ -1,6 +1,7 @@
 package com.example.helloworldapplication
 
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -10,4 +11,8 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_main)
     }
+    fun requestReadSmsPermission(view: View) {
+        println("Кнопка сработала")
+    }
+
 }
