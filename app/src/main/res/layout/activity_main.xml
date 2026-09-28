@@ -27,5 +27,6 @@
         android:layout_height="58dp"
         android:text="Показать СМС"
         tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="338dp" />
+        tools:layout_editor_absoluteY="338dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
